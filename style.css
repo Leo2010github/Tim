@@ -1,0 +1,82 @@
+body{
+    margin:0;
+    padding-top: 800px;
+    text-align: center;
+}
+.profile{
+    border-radius: 50%;
+}
+#welcome{
+    bottom:0;
+    background: linear-gradient(aquamarine 0%, blue 100%) ;
+    display: table;
+    width: 100%;
+    height: 100%;   
+    position: absolute;
+}
+h1{
+    font-size: 40px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+#name{
+    font-size: 50px;
+    font-family: cursive;
+}
+h2{
+    font-size: 30px;
+    font-family: monospace;
+}
+#bio{
+    font-family: cursive;
+    padding: 50px;
+}
+.line{
+    height:6px;
+    background-color: rgb(125, 12, 231);
+    width: 70px;
+    margin: 8px auto;
+}
+.paralax-inner{
+    display: table-cell ;
+    vertical-align: middle;
+}
+.links{
+    padding-top: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+    display: inline;
+    float: left;
+}
+.menu{
+    position:fixed;
+    list-style:none;
+    top: 0px;
+    cursor:pointer;
+    z-index: 10;
+    background-color: rgb(43, 255, 0);
+    margin-top: 0px;
+    right: 30px;
+}
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+    color: blue;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+#textos a{
+    color: rgb(129, 1, 248);
+    text-decoration: underline !important;
+    font-size: 25px;    
+}
+#contacto{
+    background-color: chartreuse;
+}
+#contacto iframe{
+    width: 100%;
+}
